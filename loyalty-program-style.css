@@ -174,7 +174,6 @@
 	margin-top: 0 !important;
 }
 
-
 /* Elements */
 .rt-address {
 	color: #444;
@@ -300,7 +299,6 @@ i {
 	padding-top: 0;
 }
 
-
 /* Tables */
 .rt-table-caption {
 	margin-bottom: 0;
@@ -308,6 +306,10 @@ i {
 .rt-price {
 	width: 100% !important;
 	font-size: 1rem;
+}
+.rt-price p {
+	font-size: 1rem;
+	margin: auto;
 }
 .rt-price > tbody > tr:nth-of-type(1) > td {
 	font-weight: bold;
@@ -344,7 +346,6 @@ i {
 .rt-price > tbody > tr > td {
 	padding: 0.5rem 1rem;
 }
-
 
 /* Animations */
 .rt-button:hover {
