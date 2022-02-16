@@ -1,0 +1,319 @@
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222863&_=1644218271924');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222863&_=1644218271924?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222864&_=1644218667217') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222865&_=1644218694115') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222866&_=1644218715703') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222867&_=1644218737942#TTNorms-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222868&_=1644218791737');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222868&_=1644218791737?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222869&_=1644218816628') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222870&_=1644218836260') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222871&_=1644218857828') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222872&_=1644218895568#TTNorms-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222858&_=1644218095830');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222858&_=1644218095830?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222859&_=1644218140657') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222860&_=1644218163565') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222861&_=1644218192445') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222862&_=1644218225157#TTNorms-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222875&_=1644219049286.eot');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222875&_=1644219049286?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222876&_=1644219078939') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222877&_=1644219097805') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222878&_=1644219120080') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222879&_=1644219142423#TTNorms-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222880&_=1644219223483');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222880&_=1644219223483?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222881&_=1644219248530') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222882&_=1644219270475') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222883&_=1644219291294') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=222884&_=1644219307087#TTNorms-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196160&_=1636447401291');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196160&_=1636447401291?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196164&_=1636447704478') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196163&_=1636447693823') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196162&_=1636447680548') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196161&_=1636447410817#TTNorms-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196149&_=1636447716385');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196149&_=1636447716385?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196153&_=1636447879683') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196152&_=1636447870634') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196151&_=1636447861147') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196150&_=1636447755573#TTNorms-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Norms';
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196154&_=1644219324020');
+	src: url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196154&_=1644219324020?#iefix') format('embedded-opentype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196159&_=1644219343473') format('woff2'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196157&_=1644219368655') format('woff'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196156&_=1644219389122') format('truetype'),
+		url('https://econom.mos.ru/mira/Do?doaction=DownloadFileWithStatisticField&fileId=196155&_=1644219398866#TTNorms-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	font-family: 'TT Norms';
+}
+
+.rt-loyalty-program {
+	font-family: 'TT Norms';
+	max-width: 68.75rem;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 3.75rem;
+	padding-bottom: 3.75rem;
+	margin: 0 auto;
+}
+.rt-header {
+	position: relative;
+	width: 100%;
+	max-height: 21.875rem;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.rt-header img, video {
+	display: inline-block;
+	vertical-align: middle;
+}
+.rt-header iframe {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	border: none;
+}
+.rt-info {
+	width: 57%;
+	min-width: 25rem;
+	flex-grow: 3;
+}
+.rt-promo {
+	width: auto;
+	max-width: 34%;
+	/* min-width: 18.125rem; */
+	border-left: 0.3125rem solid rgb(155, 24, 39);
+	padding-left: 1.5625rem;
+}
+.rt-contact {
+	margin-top: 1.25rem;
+}
+.rt-loyalty-program-header-logo {
+	position: absolute;
+	width: 9.375rem;
+	height: 9.375rem;
+	object-fit: contain;
+	object-position: center;
+	bottom: 1.875rem;
+	left: 1.875rem;
+}
+
+.rt-info h1:first-child, .rt-promo h1:first-child, .rt-header h1:first-child,
+.rt-info h2:first-child, .rt-promo h2:first-child, .rt-header h2:first-child,
+.rt-info h3:first-child, .rt-promo h3:first-child, .rt-header h3:first-child,
+.rt-info h4:first-child, .rt-promo h4:first-child, .rt-header h4:first-child,
+.rt-info h5:first-child, .rt-promo h5:first-child, .rt-header h5:first-child,
+.rt-info p:first-child, .rt-promo p:first-child, .rt-header p:first-child {
+	margin-top: 0 !important;
+}
+
+/* Elements */
+.rt-address {
+	color: #444;
+	margin: 5 0 !important;
+}
+.rt-loyalty-program ul {
+	margin-top: -0.9rem;
+	padding-left: 1.25rem;
+	list-style: none !important;
+}
+.rt-loyalty-program ul li::before {
+	content: "\2022";
+	color: rgb(155, 24, 39);
+	font-weight: 800;
+	display: inline-block; 
+	width: 1rem;
+	margin-left: -1rem;
+}
+.rt-loyalty-program li > ul {
+	margin-top: auto;
+}
+.rt-loyalty-program-header-logo img {
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
+.rt-loyalty-program p {
+	font-size: 1rem;
+	line-height: 1.5;
+	text-align: left;
+	font-weight: normal;
+	font-family: "TT Norms";
+	margin-top: 0.625rem;
+}
+.rt-loyalty-program ul {
+	font-size: 1rem;
+	text-align: left;
+	font-weight: normal;
+	font-family: "TT Norms";
+	margin-left: 0;
+}
+.rt-loyalty-program h1, .rt-loyalty-program h2, .rt-loyalty-program h3, .rt-loyalty-program h4, .rt-loyalty-program h5 {
+	margin: 3rem 0 1.38rem;
+	line-height: 1.3;
+	text-transform: uppercase;
+}
+.rt-loyalty-program h1 {
+	margin-top: 0;
+	font-size: 2.5rem;
+}
+.rt-loyalty-program h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+}
+.rt-loyalty-program h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+}
+.rt-loyalty-program h4 {
+	font-size: 1.45rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+}
+.rt-loyalty-program h5 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+}
+.rt-loyalty-program h6 {
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+}
+.rt-loyalty-program small, .text_small {
+	font-size: 0.833rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+}
+.rt-link {
+	color: rgb(3,110,200);
+	text-decoration: underline;
+}
+.rt-coupon {
+	display: inline-block;
+	font-size: 1.375rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+	text-align: center;
+	border: 0.0625rem dashed rgb(155, 24, 39);
+	width: auto;
+	padding: 0.9375rem 1.5625rem;
+	margin: 0 0 0.625rem 0 !important;
+}
+.rt-promo > p {
+	margin: 0.5rem 0;
+}
+.rt-button {
+	display: inline-block;
+	height: auto;
+	width: auto;
+	font-size: 1.125rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 2.8125rem;
+	border: 0.25rem solid rgb(155, 24, 39);
+	background-color: rgb(155, 24, 39);
+	color: white;
+	margin: 0.625rem 0 !important;
+	transition: ease-in-out 0.3s;
+}
+i {
+	position: relative;
+	top: 0.125rem !important;
+}
+.rt-info h2:first-of-type, .rt-promo h2:first-of-type {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* Animations */
+.rt-button:hover {
+	display: inline-block;
+	height: auto;
+	width: auto;
+	font-size: 1.125rem;
+	font-weight: bold;
+	font-family: "TT Norms";
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 2.8125rem;
+	border: 0.25rem solid rgb(155, 24, 39);
+	background-color: rgb(185, 24, 39);
+	color: white;
+	margin: 0.625rem 0 !important;
+	transition: ease-in-out 0.3s;
+}
