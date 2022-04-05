@@ -115,7 +115,7 @@
 	 width: 56.25rem;
 	 margin: 0 auto;
 }
-.rt-post-container *, .rt-post-footer *, #rt-post-container *, #rt-post-footer * {
+.rt-post-container, .rt-post-footer, .rt-post-container *, .rt-post-footer *, #rt-post-container *, #rt-post-footer *, #rt-post-container, #rt-post-footer {
 	font-family: "TT Norms", "TTNorms" !important;
 	font-size: 1.125rem;
 	line-height: 1.5rem;
