@@ -181,6 +181,22 @@ span.rt-post-red-text, span#rt-post-red-text {
 .rt-post-container h6, .rt-post-footer h6, #rt-post-container h6, #rt-post-footer h6 {
 	 font-size: 0.875rem;
 }
+.rt-post-container strong, .rt-post-footer strong, #rt-post-container strong, #rt-post-footer strong {
+	 font-size: inherit;
+	 font-weight: bold;
+}
+.rt-post-container u, .rt-post-footer u, #rt-post-container u, #rt-post-footer u {
+	 font-size: inherit;
+	 text-decoration: underline; 
+}
+.rt-post-container s, .rt-post-footer s, #rt-post-container s, #rt-post-footer s {
+	 font-size: inherit;
+	 text-decoration: line-through; 
+}
+.rt-post-container em, .rt-post-footer em, #rt-post-container em, #rt-post-footer em {
+	 font-size: inherit;
+	 font-style: italic;
+}
 
 /*
 	
