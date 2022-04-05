@@ -158,6 +158,29 @@ span.rt-post-red-text, span#rt-post-red-text {
 	border: 3px solid rgb(155, 24, 39);
 	background: rgb(155, 24, 39);
 }
+/*
+	
+	HEADINGS
+	
+	*/
+.rt-post-container h1, .rt-post-footer h1, #rt-post-container h1, #rt-post-footer h1 {
+	 font-size: 2rem;
+}
+.rt-post-container h2, .rt-post-footer h2, #rt-post-container h2, #rt-post-footer h2 {
+	 font-size: 1.5rem;
+}
+.rt-post-container h3, .rt-post-footer h3, #rt-post-container h3, #rt-post-footer h3 {
+	 font-size: 1.175rem;
+}
+.rt-post-container h4, .rt-post-footer h4, #rt-post-container h4, #rt-post-footer h4 {
+	 font-size: 1.125rem;
+}
+.rt-post-container h5, .rt-post-footer h5, #rt-post-container h5, #rt-post-footer h5 {
+	 font-size: 1rem;
+}
+.rt-post-container h6, .rt-post-footer h6, #rt-post-container h6, #rt-post-footer h6 {
+	 font-size: 0.875rem;
+}
 
 /*
 	
