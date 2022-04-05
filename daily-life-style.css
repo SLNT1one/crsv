@@ -116,6 +116,7 @@
 	font-size: 1.125rem;
 	line-height: 1.5rem;
 	color: black;
+	width: 56.25rem;
 }
 .rt-post-container table, .rt-post-container p, .rt-post-container span, .rt-post-container ul *, .rt-post-footer table, .rt-post-footer p, .rt-post-footer span, .rt-post-footer ul * {
 	font-family: "TT Norms", "TTNorms" !important;
