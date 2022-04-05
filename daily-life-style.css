@@ -111,31 +111,34 @@
 	GENERAL
 	
 	 */
-.rt-post-container *, rt-post-footer * {
+.rt-post-container, .rt-post-footer, #rt-post-container, #rt-post-footer {
+	 width: 56.25rem;
+	 margin: 0 auto;
+}
+.rt-post-container *, .rt-post-footer *, #rt-post-container *, #rt-post-footer * {
 	font-family: "TT Norms", "TTNorms" !important;
 	font-size: 1.125rem;
 	line-height: 1.5rem;
 	color: black;
-	width: 56.25rem;
 }
-.rt-post-container table, .rt-post-container p, .rt-post-container span, .rt-post-container ul *, .rt-post-footer table, .rt-post-footer p, .rt-post-footer span, .rt-post-footer ul * {
+.rt-post-container table, .rt-post-container p, .rt-post-container span, .rt-post-container ul *, .rt-post-footer table, .rt-post-footer p, .rt-post-footer span, .rt-post-footer ul *, #rt-post-container table, #rt-post-container p, #rt-post-container span, #rt-post-container ul *, #rt-post-footer table, #rt-post-footer p, #rt-post-footer span, #rt-post-footer ul * {
 	font-family: "TT Norms", "TTNorms" !important;
 	font-size: 1.125rem !important;
 	line-height: 1.5rem !important;
 	color: black !important;
 	margin: 1rem 0 !important;
 }
-.rt-post-container hr {
+.rt-post-container hr, #rt-post-container hr {
 	border: 2px solid rgb(155, 24, 39);
 	border-radius: 15rem;
 }
-.rt-post-container img {
+.rt-post-container img, #rt-post-container img {
 	margin: 0.5rem auto;
 }
-span.rt-post-red {
+span.rt-post-red-text, span#rt-post-red-text {
 	color: rgb(155, 24, 39) !important;
 }
-.rt-post-button-centered {
+.rt-post-button-centered, #rt-post-button-centered {
 	font-size: 1.125rem;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -150,14 +153,10 @@ span.rt-post-red {
 	transition: ease-in-out 0.3s;
 	font-family: "TT Norms", "TTNorms";
 }
-.rt-post-button-centered:hover {
+.rt-post-button-centered:hover, #rt-post-button-centered:hover {
 	color: white;
 	border: 3px solid rgb(155, 24, 39);
 	background: rgb(155, 24, 39);
-}
-.rt-post-footer {
-	width: 900px;
-	margin: 0 auto;
 }
 
 /*
