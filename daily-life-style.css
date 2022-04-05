@@ -115,7 +115,7 @@
 	 width: 56.25rem;
 	 margin: 0 auto;
 }
-.rt-post-container, .rt-post-footer, .rt-post-container *, .rt-post-footer *, #rt-post-container *, #rt-post-footer *, #rt-post-container, #rt-post-footer {
+.rt-post-container, .rt-post-footer, #rt-post-container, #rt-post-footer {
 	font-family: "TT Norms", "TTNorms" !important;
 	font-size: 1.125rem;
 	line-height: 1.5rem;
@@ -125,8 +125,8 @@
 	font-family: "TT Norms", "TTNorms" !important;
 	font-size: 1.125rem !important;
 	line-height: 1.5rem !important;
-	color: black !important;
-	margin: 1rem 0 !important;
+	color: black;
+	margin: 1rem 0;
 }
 .rt-post-container hr, #rt-post-container hr {
 	border: 2px solid rgb(155, 24, 39);
@@ -204,12 +204,12 @@ span.rt-post-red-text, span#rt-post-red-text {
 	
 	*/
 .rt-post-container a {
-	color: rgb(195, 24, 39);
+	color: rgb(195, 24, 39) !important;
 	text-decoration: none;
 	transition: ease-in-out 0.2s;
 }
 .rt-post-container a:hover {
-	color: rgb(155, 24, 39);
+	color: rgb(155, 24, 39) !important;
 	text-decoration: underline;
 	transition: ease-in-out 0.2s;
 }
