@@ -204,16 +204,19 @@ span.rt-post-red-text, span#rt-post-red-text {
 	 font-style: italic;
 }
 .rt-post-container blockquote, .rt-post-footer blockquote, #rt-post-container blockquote, #rt-post-footer blockquote {
-	 background: rgba(230, 230, 230, 0.3);
-	 border-left: 10px solid rgb(155, 24, 39);
-	 padding: 0.5rem 2rem 0.5rem 2rem;
+	 background: rgba(230, 230, 230, 0.3) !important;
+	 border-left: 10px solid rgb(155, 24, 39) !important;
+	 padding: 0.5rem 2rem 0.5rem 2rem !important;
+}
+.rt-post-container blockquote::before, .rt-post-footer blockquote::before, #rt-post-container blockquote::before, #rt-post-footer blockquote::before, .rt-post-container blockquote::after, .rt-post-footer blockquote::after, #rt-post-container blockquote::after, #rt-post-footer blockquote::after {
+	 content: none !important;
 }
 .rt-post-container blockquote p, .rt-post-footer blockquote p, #rt-post-container blockquote p, #rt-post-footer blockquote p {
-	 font-style: italic;
+	 font-style: italic !important;
 }
 .rt-post-container blockquote p:last-of-type, .rt-post-footer blockquote p:last-of-type, #rt-post-container blockquote p:last-of-type, #rt-post-footer blockquote p:last-of-type {
-	 font-style: normal;
-	 text-align: right;
+	 font-style: normal !important;
+	 text-align: right !important;
 }
 
 /*
