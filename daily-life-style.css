@@ -139,6 +139,7 @@
 }
 .rt-post-container img, #rt-post-container img {
 	margin: 0.5rem auto;
+	width: 100%;
 }
 span.rt-post-red-text, span#rt-post-red-text {
 	color: rgb(155, 24, 39) !important;
@@ -202,18 +203,30 @@ span.rt-post-red-text, span#rt-post-red-text {
 	 font-size: inherit;
 	 font-style: italic;
 }
+.rt-post-container blockquote, .rt-post-footer blockquote, #rt-post-container blockquote, #rt-post-footer blockquote {
+	 background: rgba(230, 230, 230, 0.3);
+	 border-left: 10px solid rgb(155, 24, 39);
+	 padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.rt-post-container blockquote p, .rt-post-footer blockquote p, #rt-post-container blockquote p, #rt-post-footer blockquote p {
+	 font-style: italic;
+}
+.rt-post-container blockquote p:last-of-type, .rt-post-footer blockquote p:last-of-type, #rt-post-container blockquote p:last-of-type, #rt-post-footer blockquote p:last-of-type {
+	 font-style: normal;
+	 text-align: right;
+}
 
 /*
 	
 	LINK
 	
 	*/
-.rt-post-container a {
+.rt-post-container a, #rt-post-container a, .rt-post-footer a, #rt-post-footer a {
 	color: rgb(195, 24, 39) !important;
 	text-decoration: none;
 	transition: ease-in-out 0.2s;
 }
-.rt-post-container a:hover {
+.rt-post-container a:hover, #rt-post-container a:hover, .rt-post-footer a:hover, #rt-post-footer a:hover {
 	color: rgb(155, 24, 39) !important;
 	text-decoration: underline;
 	transition: ease-in-out 0.2s;
@@ -223,20 +236,20 @@ span.rt-post-red-text, span#rt-post-red-text {
 	TABLE
 	
 	 */
-.rt-post-container table {
+.rt-post-container table, #rt-post-container table {
 	border: none;
 	margin: 0 auto;
 	min-width: 20rem;
 	width: auto;
 	border-collapse: collapse;
 }
-.rt-post-container table tr {
+.rt-post-container table tr, #rt-post-container table tr {
 	border-bottom: 3px solid rgb(179, 179, 179);
 }
-.rt-post-container table tr td {
+.rt-post-container table tr td, #rt-post-container table tr td {
 	padding: 0.5rem 2rem 0.25rem 2rem;
 }
-.rt-post-container table span {
+.rt-post-container table span, #rt-post-container table span {
 	color: rgb(155, 24, 39) !important;
 }
 /* 
@@ -249,25 +262,31 @@ span.rt-post-red-text, span#rt-post-red-text {
 	DEPR
 	
 	*/	 
-.rt-post-button-footer-depr {
-	display: block;
+div.rt-post-buttons-container-footer-depr, div#rt-post-buttons-container-footer-depr {
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+	text-align: center;
+}
+a.rt-post-button-footer-depr, a#rt-post-button-footer-depr {
+	display: inline-block;
 	padding: 1rem 2rem;
 	background-color: #d4eef9;
-	color: #19607e;
+	color: #19607e !important;
 	transition: ease-in-out 0.3s;
 	font-family: "TT Norms", "TTNorms";
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 1rem;
-	text-decoration: none;
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+	font-size: 1rem !important;
+	text-decoration: none !important;
 	border-radius: 0.5rem;
 	margin: 0.5rem;
 }
-.rt-post-button-footer-depr:hover {
-	background-color: #19607e;
-	color: #d4eef9;
+a.rt-post-button-footer-depr:hover, a#rt-post-button-footer-depr:hover {
+	background-color: #19607e !important;
+	color: #d4eef9 !important;
 }
-.rt-post-button-footer-depr:active {
-	background-color: #84b0c4;
-	color: #d4eef9;
+a.rt-post-button-footer-depr:active, a#rt-post-button-footer-depr:active {
+	background-color: #84b0c4 !important;
+	color: #d4eef9 !important;
 }
