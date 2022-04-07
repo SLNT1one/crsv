@@ -118,7 +118,7 @@
 	 */
 .rt-post-container, .rt-post-footer, #rt-post-container, #rt-post-footer {
 	 width: 56.25rem;
-	 margin: 0 auto;
+	 margin: 1rem auto;
 }
 .rt-post-container, .rt-post-footer, #rt-post-container, #rt-post-footer {
 	font-family: "TT Norms", "TTNorms" !important;
