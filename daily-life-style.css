@@ -208,8 +208,18 @@ span.rt-post-red-text, span#rt-post-red-text {
 	 border-left: 10px solid rgb(155, 24, 39) !important;
 	 padding: 0.5rem 2rem 0.5rem 2rem !important;
 }
-.rt-post-container blockquote::before, .rt-post-footer blockquote::before, #rt-post-container blockquote::before, #rt-post-footer blockquote::before, .rt-post-container blockquote::after, .rt-post-footer blockquote::after, #rt-post-container blockquote::after, #rt-post-footer blockquote::after {
+/* .rt-post-container blockquote::before, .rt-post-footer blockquote::before, #rt-post-container blockquote::before, #rt-post-footer blockquote::before, */ .rt-post-container blockquote::after, .rt-post-footer blockquote::after, #rt-post-container blockquote::after, #rt-post-footer blockquote::after {
 	 content: none !important;
+}
+.rt-post-container blockquote::before, .rt-post-footer blockquote::before, #rt-post-container blockquote::before, #rt-post-footer blockquote::before {
+	 content: '';
+	 background: url("https://econom.mos.ru/mira/r/2022-03-24_13-00-05/DEPR_v3/MVC/Publications/21555/Image/quote-red-1.png") no-repeat;
+	 background-size: contain;
+	 position: absolute;
+	 top: -0.5rem;
+	 left: 1rem;
+	 width: 3rem;
+	 height: 1rem;
 }
 .rt-post-container blockquote p, .rt-post-footer blockquote p, #rt-post-container blockquote p, #rt-post-footer blockquote p {
 	 font-style: italic !important;
