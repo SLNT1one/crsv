@@ -151,7 +151,7 @@ span.rt-post-red-text, span#rt-post-red-text {
 	font-weight: 700;
 	display: inline-block;
 	padding: 1rem 2rem;
-	color: rgb(155, 24, 39);
+	color: rgb(155, 24, 39) !important;
 	border: 3px solid rgb(155, 24, 39);
 	border-radius: 20rem;
 	background: white;
@@ -160,7 +160,7 @@ span.rt-post-red-text, span#rt-post-red-text {
 	font-family: "TT Norms", "TTNorms";
 }
 .rt-post-button-centered:hover, #rt-post-button-centered:hover {
-	color: white;
+	color: white !important;
 	border: 3px solid rgb(155, 24, 39);
 	background: rgb(155, 24, 39);
 }
