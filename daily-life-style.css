@@ -140,13 +140,19 @@
 .rt-post-container img, #rt-post-container img {
 	margin: 0.5rem auto;
 	width: 100%;
+	height: auto;
+}
+.rt-post-container video, #rt-post-container video {
+	margin: 0.5rem auto;
+	width: 100%;
+	height: auto;
 }
 span.rt-post-red-text, span#rt-post-red-text {
 	color: rgb(155, 24, 39) !important;
 }
-.rt-post-button-centered, #rt-post-button-centered {
+a.rt-post-button-centered, .rt-post-button-centered, a#rt-post-button-centered, #rt-post-button-centered {
 	font-size: 1.125rem;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
@@ -159,10 +165,11 @@ span.rt-post-red-text, span#rt-post-red-text {
 	transition: ease-in-out 0.3s;
 	font-family: "TT Norms", "TTNorms";
 }
-.rt-post-button-centered:hover, #rt-post-button-centered:hover {
+a.rt-post-button-centered:hover, .rt-post-button-centered:hover, a#rt-post-button-centered:hover, #rt-post-button-centered:hover {
 	color: white !important;
 	border: 3px solid rgb(155, 24, 39);
 	background: rgb(155, 24, 39);
+	text-decoration: none !important;
 }
 /*
 	
@@ -235,12 +242,12 @@ span.rt-post-red-text, span#rt-post-red-text {
 	
 	*/
 .rt-post-container a, #rt-post-container a, .rt-post-footer a, #rt-post-footer a {
-	color: rgb(195, 24, 39) !important;
+	color: rgb(195, 24, 39);
 	text-decoration: none;
 	transition: ease-in-out 0.2s;
 }
 .rt-post-container a:hover, #rt-post-container a:hover, .rt-post-footer a:hover, #rt-post-footer a:hover {
-	color: rgb(155, 24, 39) !important;
+	color: rgb(155, 24, 39);
 	text-decoration: underline;
 	transition: ease-in-out 0.2s;
 }
