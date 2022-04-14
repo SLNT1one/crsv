@@ -141,11 +141,13 @@
 	margin: 0.5rem auto;
 	width: 100%;
 	height: auto;
+	display: block;
 }
 .rt-post-container video, #rt-post-container video {
 	margin: 0.5rem auto;
 	width: 100%;
 	height: auto;
+	display: block;
 }
 span.rt-post-red-text, span#rt-post-red-text {
 	color: rgb(155, 24, 39) !important;
@@ -292,6 +294,24 @@ a.rt-post-button-centered-narrow:hover, .rt-post-button-centered-narrow:hover, a
 }
 .rt-post-container table span, #rt-post-container table span {
 	color: rgb(155, 24, 39) !important;
+}
+/*
+	
+	SPECIAL BLOCKS
+	
+	*/
+.rt-post-container .inline-elements-vteme, .rt-post-container #inline-elements-vteme, #rt-post-container .inline-elements-vteme, #rt-post-container #inline-elements-vteme {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	align-content: flex-start;
+	justify-content: flex-start;
+}
+.rt-post-container .inline-elements-vteme > img, .rt-post-container #inline-elements-vteme > img, #rt-post-container .inline-elements-vteme > img, #rt-post-container #inline-elements-vteme > img {
+	margin: 1rem;
+	width: 6rem;
+	height: auto;
 }
 /* 
 	
